@@ -38,7 +38,6 @@ main{
 	margin-left: 50px;
 	font-size: 2rem;
 	color: #DFB8B8;
-	margin-top: 0;
 }
 .computer{
 	display: flex;
@@ -86,7 +85,6 @@ main{
 	text-align: center;
 	font-size: 1.5rem;
 	color: #DFB8B8;
-	margin-top: -8em;
 }
 #para{
 	margin-right: 50px;
