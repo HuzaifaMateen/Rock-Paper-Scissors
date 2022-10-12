@@ -10,6 +10,7 @@ const possibleChoices = document.querySelectorAll("button");
 let playerChoice;
 let computerChoice;
 let result;
+// main function
 for (let i = 0; i < possibleChoices.length; i++){
 	possibleChoices[i].addEventListener('click', function(e){
 		playerChoice = e.target.id;
@@ -18,6 +19,7 @@ for (let i = 0; i < possibleChoices.length; i++){
 		getResult();
 	});
 }
+// computer choice
 function generateComputerChoice() {
 	const randomIndex = Math.floor(Math.random() * possibleChoices.length + 1);
 	
@@ -30,7 +32,7 @@ function generateComputerChoice() {
 	}
 	computerDisplay.innerHTML = computerChoice;
 }
-
+// result and score
 function getResult() {
 	if (playerChoice === computerChoice){
 		resultDisplay.innerHTML = "Result:" + " "+ "Draw!";
