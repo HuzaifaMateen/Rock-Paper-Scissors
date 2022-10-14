@@ -32,12 +32,12 @@ main{
 }
 #heading{
 	margin-left: 50px;
-	color: #DFB8B8;
+	color: #2f0f00;
 }
 #player-choice{
 	margin-left: 50px;
 	font-size: 2rem;
-	color: #DFB8B8;
+	color: #2f0f00;
 }
 .computer{
 	display: flex;
@@ -46,7 +46,7 @@ main{
 #header{
 	margin-right: 50px;
 	margin-top: 80px;
-	color: #DFB8B8;
+	color: #2f0f00;
 }
 #rock{
 	border-radius: 100%;
@@ -84,11 +84,11 @@ main{
 #result{
 	text-align: center;
 	font-size: 1.5rem;
-	color: #DFB8B8;
+	color: #2f0f00;
 }
 #para{
 	margin-right: 50px;
 	font-size: 2rem;
-	color: #DFB8B8;
+	color: #2f0f00;
 	margin-top: 10em;
 }
